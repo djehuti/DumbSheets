@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20212CD15A881B300354C69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20212CC15A881B300354C69 /* Cocoa.framework */; };
+		F20212D715A881B300354C69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F20212D515A881B300354C69 /* InfoPlist.strings */; };
+		F20212D915A881B300354C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212D815A881B300354C69 /* main.m */; };
+		F20212DD15A881B300354C69 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F20212DB15A881B300354C69 /* Credits.rtf */; };
+		F20212E015A881B300354C69 /* DumbSheetsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */; };
+		F20212E315A881B300354C69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20212E115A881B300354C69 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20212C815A881B300354C69 /* DumbSheets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbSheets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20212CC15A881B300354C69 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F20212CF15A881B300354C69 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F20212D015A881B300354C69 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F20212D115A881B300354C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F20212D415A881B300354C69 /* DumbSheets-Info.plist */ = {isa = PBXFileReference; path = "DumbSheets-Info.plist"; sourceTree = "<group>"; };
+		F20212D615A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F20212D815A881B300354C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F20212DA15A881B300354C69 /* DumbSheets-Prefix.pch */ = {isa = PBXFileReference; path = "DumbSheets-Prefix.pch"; sourceTree = "<group>"; };
+		F20212DC15A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F20212DE15A881B300354C69 /* DumbSheetsAppDelegate.h */ = {isa = PBXFileReference; path = DumbSheetsAppDelegate.h; sourceTree = "<group>"; };
+		F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbSheetsAppDelegate.m; sourceTree = "<group>"; };
+		F20212E215A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20212C515A881B300354C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20212CD15A881B300354C69 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20212BD15A881B200354C69 = {
+			isa = PBXGroup;
+			children = (
+				F20212D215A881B300354C69 /* DumbSheets */,
+				F20212CB15A881B300354C69 /* Frameworks */,
+				F20212C915A881B300354C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20212C915A881B300354C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20212C815A881B300354C69 /* DumbSheets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20212CB15A881B300354C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20212CC15A881B300354C69 /* Cocoa.framework */,
+				F20212CE15A881B300354C69 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20212CE15A881B300354C69 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20212CF15A881B300354C69 /* AppKit.framework */,
+				F20212D015A881B300354C69 /* CoreData.framework */,
+				F20212D115A881B300354C69 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F20212D215A881B300354C69 /* DumbSheets */ = {
+			isa = PBXGroup;
+			children = (
+				F20212DE15A881B300354C69 /* DumbSheetsAppDelegate.h */,
+				F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */,
+				F20212E115A881B300354C69 /* MainMenu.xib */,
+				F20212D315A881B300354C69 /* Supporting Files */,
+			);
+			path = DumbSheets;
+			sourceTree = "<group>";
+		};
+		F20212D315A881B300354C69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20212D415A881B300354C69 /* DumbSheets-Info.plist */,
+				F20212D515A881B300354C69 /* InfoPlist.strings */,
+				F20212D815A881B300354C69 /* main.m */,
+				F20212DA15A881B300354C69 /* DumbSheets-Prefix.pch */,
+				F20212DB15A881B300354C69 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20212C715A881B300354C69 /* DumbSheets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20212E615A881B300354C69 /* Build configuration list for PBXNativeTarget "DumbSheets" */;
+			buildPhases = (
+				F20212C415A881B300354C69 /* Sources */,
+				F20212C515A881B300354C69 /* Frameworks */,
+				F20212C615A881B300354C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DumbSheets;
+			productName = DumbSheets;
+			productReference = F20212C815A881B300354C69 /* DumbSheets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20212BF15A881B200354C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Apple Inc.";
+			};
+			buildConfigurationList = F20212C215A881B200354C69 /* Build configuration list for PBXProject "DumbSheets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F20212BD15A881B200354C69;
+			productRefGroup = F20212C915A881B300354C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20212C715A881B300354C69 /* DumbSheets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20212C615A881B300354C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20212D715A881B300354C69 /* InfoPlist.strings in Resources */,
+				F20212DD15A881B300354C69 /* Credits.rtf in Resources */,
+				F20212E315A881B300354C69 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20212C415A881B300354C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20212D915A881B300354C69 /* main.m in Sources */,
+				F20212E015A881B300354C69 /* DumbSheetsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F20212D515A881B300354C69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20212D615A881B300354C69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F20212DB15A881B300354C69 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20212DC15A881B300354C69 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F20212E115A881B300354C69 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20212E215A881B300354C69 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20212E415A881B300354C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F20212E515A881B300354C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F20212E715A881B300354C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DumbSheets/DumbSheets-Prefix.pch";
+				INFOPLIST_FILE = "DumbSheets/DumbSheets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F20212E815A881B300354C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DumbSheets/DumbSheets-Prefix.pch";
+				INFOPLIST_FILE = "DumbSheets/DumbSheets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20212C215A881B200354C69 /* Build configuration list for PBXProject "DumbSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20212E415A881B300354C69 /* Debug */,
+				F20212E515A881B300354C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20212E615A881B300354C69 /* Build configuration list for PBXNativeTarget "DumbSheets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20212E715A881B300354C69 /* Debug */,
+				F20212E815A881B300354C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20212BF15A881B200354C69 /* Project object */;
+}
