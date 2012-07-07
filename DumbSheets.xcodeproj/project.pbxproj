@@ -10,9 +10,10 @@
 		F20212CD15A881B300354C69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20212CC15A881B300354C69 /* Cocoa.framework */; };
 		F20212D715A881B300354C69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F20212D515A881B300354C69 /* InfoPlist.strings */; };
 		F20212D915A881B300354C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212D815A881B300354C69 /* main.m */; };
-		F20212DD15A881B300354C69 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F20212DB15A881B300354C69 /* Credits.rtf */; };
 		F20212E015A881B300354C69 /* DumbSheetsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */; };
 		F20212E315A881B300354C69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20212E115A881B300354C69 /* MainMenu.xib */; };
+		F20212EB15A89FC400354C69 /* NSWindow+LongRunningChunkedWork.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212EA15A89FC400354C69 /* NSWindow+LongRunningChunkedWork.m */; };
+		F20212F115A8A42600354C69 /* MyWork.m in Sources */ = {isa = PBXBuildFile; fileRef = F20212F015A8A42600354C69 /* MyWork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,17 @@
 		F20212CF15A881B300354C69 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F20212D015A881B300354C69 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F20212D115A881B300354C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F20212D415A881B300354C69 /* DumbSheets-Info.plist */ = {isa = PBXFileReference; path = "DumbSheets-Info.plist"; sourceTree = "<group>"; };
+		F20212D415A881B300354C69 /* DumbSheets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DumbSheets-Info.plist"; sourceTree = "<group>"; };
 		F20212D615A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F20212D815A881B300354C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F20212DA15A881B300354C69 /* DumbSheets-Prefix.pch */ = {isa = PBXFileReference; path = "DumbSheets-Prefix.pch"; sourceTree = "<group>"; };
-		F20212DC15A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F20212DE15A881B300354C69 /* DumbSheetsAppDelegate.h */ = {isa = PBXFileReference; path = DumbSheetsAppDelegate.h; sourceTree = "<group>"; };
+		F20212DA15A881B300354C69 /* DumbSheets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DumbSheets-Prefix.pch"; sourceTree = "<group>"; };
+		F20212DE15A881B300354C69 /* DumbSheetsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbSheetsAppDelegate.h; sourceTree = "<group>"; };
 		F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbSheetsAppDelegate.m; sourceTree = "<group>"; };
 		F20212E215A881B300354C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F20212E915A89FC400354C69 /* NSWindow+LongRunningChunkedWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+LongRunningChunkedWork.h"; sourceTree = "<group>"; };
+		F20212EA15A89FC400354C69 /* NSWindow+LongRunningChunkedWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+LongRunningChunkedWork.m"; sourceTree = "<group>"; };
+		F20212EF15A8A42600354C69 /* MyWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWork.h; sourceTree = "<group>"; };
+		F20212F015A8A42600354C69 /* MyWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,10 @@
 		F20212D215A881B300354C69 /* DumbSheets */ = {
 			isa = PBXGroup;
 			children = (
+				F20212E915A89FC400354C69 /* NSWindow+LongRunningChunkedWork.h */,
+				F20212EA15A89FC400354C69 /* NSWindow+LongRunningChunkedWork.m */,
+				F20212EF15A8A42600354C69 /* MyWork.h */,
+				F20212F015A8A42600354C69 /* MyWork.m */,
 				F20212DE15A881B300354C69 /* DumbSheetsAppDelegate.h */,
 				F20212DF15A881B300354C69 /* DumbSheetsAppDelegate.m */,
 				F20212E115A881B300354C69 /* MainMenu.xib */,
@@ -97,7 +105,6 @@
 				F20212D515A881B300354C69 /* InfoPlist.strings */,
 				F20212D815A881B300354C69 /* main.m */,
 				F20212DA15A881B300354C69 /* DumbSheets-Prefix.pch */,
-				F20212DB15A881B300354C69 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20212D715A881B300354C69 /* InfoPlist.strings in Resources */,
-				F20212DD15A881B300354C69 /* Credits.rtf in Resources */,
 				F20212E315A881B300354C69 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +173,8 @@
 			files = (
 				F20212D915A881B300354C69 /* main.m in Sources */,
 				F20212E015A881B300354C69 /* DumbSheetsAppDelegate.m in Sources */,
+				F20212EB15A89FC400354C69 /* NSWindow+LongRunningChunkedWork.m in Sources */,
+				F20212F115A8A42600354C69 /* MyWork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,14 +187,6 @@
 				F20212D615A881B300354C69 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F20212DB15A881B300354C69 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F20212DC15A881B300354C69 /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		F20212E115A881B300354C69 /* MainMenu.xib */ = {
