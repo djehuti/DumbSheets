@@ -54,6 +54,7 @@
 				F20212CB15A881B300354C69 /* Frameworks */,
 				F20212C915A881B300354C69 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		F20212C915A881B300354C69 /* Products */ = {
@@ -135,7 +136,7 @@
 		F20212BF15A881B200354C69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Apple Inc.";
+				ORGANIZATIONNAME = "Ben Cox";
 			};
 			buildConfigurationList = F20212C215A881B200354C69 /* Build configuration list for PBXProject "DumbSheets" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,6 +287,7 @@
 				F20212E815A881B300354C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
